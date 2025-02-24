@@ -55,7 +55,6 @@ public class CameraMovment : MonoBehaviour
     {
         isFocusing = true;
         targetPosition = country.position + new Vector3(4, 20, 10);
-        //targetRotation = Quaternion.Euler(45, country.eulerAngles.y, 0);
     }
 
     void ResetCamera()
