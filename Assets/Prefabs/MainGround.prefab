@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4166638250687004125}
   - component: {fileID: 315112143455807437}
   - component: {fileID: 44715833312737035}
+  - component: {fileID: 4134633685746638777}
   m_Layer: 6
   m_Name: Irland
   m_TagString: Untagged
@@ -110,6 +111,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &4134633685746638777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261870906809708871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Irland
 --- !u!1 &730563902306550621
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,6 +172,7 @@ GameObject:
   - component: {fileID: 150203436581259155}
   - component: {fileID: 3770237987830374722}
   - component: {fileID: 4639624485697655523}
+  - component: {fileID: 8770866538869719541}
   m_Layer: 6
   m_Name: Denmark
   m_TagString: Untagged
@@ -256,6 +271,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &8770866538869719541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808760980916768867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Denmark
 --- !u!1 &2153495575820741618
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +296,7 @@ GameObject:
   - component: {fileID: 93690478240961822}
   - component: {fileID: 808737102416233127}
   - component: {fileID: 9065306473873265143}
+  - component: {fileID: 6713350216383107209}
   m_Layer: 6
   m_Name: Finland
   m_TagString: Untagged
@@ -364,6 +393,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6713350216383107209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2153495575820741618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Finland
 --- !u!1 &2997221336407523559
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +418,7 @@ GameObject:
   - component: {fileID: 4792008691240312780}
   - component: {fileID: 417981971905608591}
   - component: {fileID: 5341343961483422335}
+  - component: {fileID: 8572058952967890618}
   m_Layer: 6
   m_Name: Russia
   m_TagString: Untagged
@@ -474,6 +517,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &8572058952967890618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997221336407523559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Russia
 --- !u!1 &3082674936157327117
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,8 +542,9 @@ GameObject:
   - component: {fileID: 8789396516246117765}
   - component: {fileID: 3989447347358192437}
   - component: {fileID: 2095905272313138031}
+  - component: {fileID: 8343891227010779659}
   m_Layer: 6
-  m_Name: Land (5)
+  m_Name: PolandxGermany
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -582,6 +639,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8343891227010779659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3082674936157327117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Poland
 --- !u!1 &3123020140989746081
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,8 +664,9 @@ GameObject:
   - component: {fileID: 3068293392873167589}
   - component: {fileID: 2866188232595575333}
   - component: {fileID: 864495641127962780}
+  - component: {fileID: 7411692123723130226}
   m_Layer: 6
-  m_Name: Norway (1)
+  m_Name: Italy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -690,6 +761,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7411692123723130226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123020140989746081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Italy
 --- !u!1 &3128201398180896601
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,8 +786,9 @@ GameObject:
   - component: {fileID: 5594209069313366136}
   - component: {fileID: 680731856815781625}
   - component: {fileID: 4128723257025205860}
+  - component: {fileID: 7299200364415102583}
   m_Layer: 6
-  m_Name: Land (7)
+  m_Name: GrecexItaly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -798,6 +883,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7299200364415102583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3128201398180896601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Grece
 --- !u!1 &3135744028286160080
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,8 +908,9 @@ GameObject:
   - component: {fileID: 3903755722924629308}
   - component: {fileID: 490407977738900141}
   - component: {fileID: 5598416108562960062}
+  - component: {fileID: 7171422078238460995}
   m_Layer: 6
-  m_Name: Sweden (1)
+  m_Name: Italy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -906,6 +1005,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7171422078238460995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135744028286160080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Italy
 --- !u!1 &4058234534777032710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,8 +1139,9 @@ GameObject:
   - component: {fileID: 113914205805738676}
   - component: {fileID: 5952202713166219285}
   - component: {fileID: 8787078920895435368}
+  - component: {fileID: 2636800956698812537}
   m_Layer: 6
-  m_Name: Land (1)
+  m_Name: France
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1123,6 +1236,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2636800956698812537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5404029424481626928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: France
 --- !u!1 &5522251104816847967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1261,7 @@ GameObject:
   - component: {fileID: 6691889218851478826}
   - component: {fileID: 7905841748060358596}
   - component: {fileID: 9045867367897871143}
+  - component: {fileID: 2910207899909570410}
   m_Layer: 6
   m_Name: Russia (3)
   m_TagString: Untagged
@@ -1233,6 +1360,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &2910207899909570410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5522251104816847967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Russia
 --- !u!1 &5603589359362128064
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,6 +1385,7 @@ GameObject:
   - component: {fileID: 2475192809160813581}
   - component: {fileID: 5981087106848755109}
   - component: {fileID: 4170524028143972212}
+  - component: {fileID: 7264557659840829740}
   m_Layer: 6
   m_Name: GreateBritan
   m_TagString: Untagged
@@ -1341,6 +1482,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7264557659840829740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5603589359362128064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: GreatBritan
 --- !u!1 &5803090828777429483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,8 +1507,9 @@ GameObject:
   - component: {fileID: 8171875746608602678}
   - component: {fileID: 3033882638334700572}
   - component: {fileID: 5142049702056952262}
+  - component: {fileID: 3484761501020003713}
   m_Layer: 6
-  m_Name: Land
+  m_Name: MainLandGermany
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1449,6 +1604,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3484761501020003713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5803090828777429483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Germany
 --- !u!1 &7280162328932345149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,6 +1629,7 @@ GameObject:
   - component: {fileID: 3918830880617064592}
   - component: {fileID: 4535447806433657647}
   - component: {fileID: 2473924396042555283}
+  - component: {fileID: 5718548967772574411}
   m_Layer: 6
   m_Name: Russia (2)
   m_TagString: Untagged
@@ -1559,6 +1728,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &5718548967772574411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7280162328932345149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Russia
 --- !u!1 &7529679155746440053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,6 +1898,7 @@ GameObject:
   - component: {fileID: 326041049210608157}
   - component: {fileID: 191981444074119001}
   - component: {fileID: 510515888762331571}
+  - component: {fileID: 8057258395827790485}
   m_Layer: 6
   m_Name: Norway
   m_TagString: Untagged
@@ -1812,6 +1995,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8057258395827790485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8505274129475899574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Norway
 --- !u!1 &8649474205064112212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,8 +2020,9 @@ GameObject:
   - component: {fileID: 6891412910725015215}
   - component: {fileID: 743026424037159213}
   - component: {fileID: 5309656324145257615}
+  - component: {fileID: 1068319300652484485}
   m_Layer: 6
-  m_Name: Land (3)
+  m_Name: Spain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1920,6 +2117,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1068319300652484485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649474205064112212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: SpainxPortugal
 --- !u!1 &8697534808084121702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1932,6 +2142,7 @@ GameObject:
   - component: {fileID: 2338920490083323803}
   - component: {fileID: 8474071987742324899}
   - component: {fileID: 5377157752447762147}
+  - component: {fileID: 3259235311235361497}
   m_Layer: 6
   m_Name: Russia (1)
   m_TagString: Untagged
@@ -2030,6 +2241,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &3259235311235361497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697534808084121702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Russia
 --- !u!1 &8721371678541826857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,6 +2266,7 @@ GameObject:
   - component: {fileID: 7202399466117264755}
   - component: {fileID: 7024990749606804616}
   - component: {fileID: 2846764320804048639}
+  - component: {fileID: 5645973044121227869}
   m_Layer: 6
   m_Name: Sweden
   m_TagString: Untagged
@@ -2138,6 +2363,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5645973044121227869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8721371678541826857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Sweden
 --- !u!1 &8942225737941411754
 GameObject:
   m_ObjectHideFlags: 0
@@ -2150,8 +2388,9 @@ GameObject:
   - component: {fileID: 4923210986500233817}
   - component: {fileID: 5106428753606470209}
   - component: {fileID: 3107228159373748196}
+  - component: {fileID: 7074241319167751101}
   m_Layer: 6
-  m_Name: Land (6)
+  m_Name: Hungry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2246,6 +2485,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7074241319167751101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8942225737941411754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Houngery
 --- !u!1 &8951700407940279652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,8 +2510,9 @@ GameObject:
   - component: {fileID: 8972251908025520555}
   - component: {fileID: 471505659921086043}
   - component: {fileID: 3167094500675926199}
+  - component: {fileID: 7114236606825013489}
   m_Layer: 6
-  m_Name: Land (2)
+  m_Name: Belgium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2354,6 +2607,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7114236606825013489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8951700407940279652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Belgium
 --- !u!1 &8977373686461105514
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,8 +2632,9 @@ GameObject:
   - component: {fileID: 2797773841149050521}
   - component: {fileID: 13091409596753224}
   - component: {fileID: 7598891123643752950}
+  - component: {fileID: 5166900767954909104}
   m_Layer: 6
-  m_Name: Land (4)
+  m_Name: BosniaxAlbania
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2462,3 +2729,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5166900767954909104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8977373686461105514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8ee3282a855e40844ba07bb928b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryName: Bosnia
