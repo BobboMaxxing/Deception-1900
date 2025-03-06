@@ -13,6 +13,7 @@ public class MainMenuController : MonoBehaviour
 
     [Header("Panels+Ani")]
     public GameObject settingsPanel;
+    public Animator FadeOutAnimatior;
     public Animator settingsAnimator;
     public GameObject CloseGamePanel;
 
@@ -57,11 +58,13 @@ public class MainMenuController : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
+        FadeOutAnimatior.SetTrigger("FadeOut");
         SceneManager.LoadScene(sceneName);
     }
 
     public void QuitGameYes()
     {
+        FadeOutAnimatior.SetTrigger("FadeOut");
         Application.Quit();
     }
 
